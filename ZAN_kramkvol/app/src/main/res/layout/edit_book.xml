@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Book Title -->
+        <EditText
+            android:id="@+id/editTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="@string/hint_title"
+            android:autofillHints="username"
+            android:inputType="textCapWords"
+            android:layout_marginTop="8dp" />
+
+        <!-- Author -->
+        <EditText
+            android:id="@+id/editAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="@string/hint_author"
+            android:autofillHints="name"
+            android:inputType="textPersonName" />
+
+        <!-- Start Date -->
+        <EditText
+            android:id="@+id/editStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="@string/hint_start_date"
+            android:autofillHints="date"
+            android:inputType="date"
+            android:layout_marginTop="8dp" />
+
+        <!-- End Date -->
+        <EditText
+            android:id="@+id/editEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="@string/hint_end_date"
+            android:autofillHints="date"
+            android:inputType="date"
+            android:layout_marginTop="8dp" />
+
+        <!-- Category Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_category"
+            android:layout_marginTop="8dp" />
+
+        <!-- Category Spinner -->
+        <Spinner
+            android:id="@+id/spinnerCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+
+        <!-- Note -->
+        <EditText
+            android:id="@+id/editNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="12dp"
+            android:hint="@string/hint_note"
+            android:autofillHints="note"
+            android:minLines="3"
+            android:inputType="textMultiLine"
+            android:layout_marginTop="8dp" />
+
+        <!-- Save Button -->
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_save"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</ScrollView>

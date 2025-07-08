@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ZAN_kramkvol</string>
+    <string name="hint_author">Author</string>
+    <string name="hint_title">Book Title</string>
+    <string name="hint_start_date">Start Date</string>
+    <string name="hint_end_date">End Date</string>
+    <string name="hint_note">Note</string>
+    <string name="btn_add">Add Book</string>
+    <string name="btn_save">Save Book</string>
+    <string name="label_category">Category</string>
+</resources>
